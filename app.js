@@ -13,7 +13,7 @@ app.get('/api', (req, res) => {
   }
 
   const now = new Date();
-  const utcTime = new Date(now.getTime()).toISOString();
+  const utcTime = new Date().toISOString();
   
   const jsonResponse = {
     slack_name,
