@@ -20,7 +20,7 @@ console.log(now, utcTime)
     current_day: new Intl.DateTimeFormat('en-US', { weekday: 'long' }).format(now),
     utc_time: utcTime,
     track,
-    github_file_url: 'https://github.com/username/repo/blob/main/file_name.ext',
+    github_file_url: 'https://github.com/kofman10/HNGX/blob/main/app.js',
     github_repo_url: 'https://github.com/kofman10/HNGX',
     status_code: 200,
   };
