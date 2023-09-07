@@ -14,11 +14,12 @@ app.get('/api', (req, res) => {
 
   const now = new Date();
   const utcTime = new Date().toISOString();
-  
+  const formattedDate = utcTime.replace(/\.\d{3}Z$/, "Z")
+
   const jsonResponse = {
     slack_name,
     current_day: new Intl.DateTimeFormat('en-US', { weekday: 'long' }).format(now),
-    utc_time: utcTime,
+    utc_time: formattedDate,
     track,
     github_file_url: 'https://github.com/kofman10/HNGX/blob/main/app.js',
     github_repo_url: 'https://github.com/kofman10/HNGX',
