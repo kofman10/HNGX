@@ -13,7 +13,8 @@ app.get('/api', (req, res) => {
   }
 
   const now = new Date();
-  const utcTime = new Date(now.getTime() + 2 * 60000).toISOString();
+  const utcTime = new Date(now.getTime()).toISOString();
+  
   const jsonResponse = {
     slack_name,
     current_day: new Intl.DateTimeFormat('en-US', { weekday: 'long' }).format(now),
