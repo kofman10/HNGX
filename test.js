@@ -1,10 +1,7 @@
 const assert = require("assert");
 const request = require("supertest");
-const app = require("./index"); // Assuming your Express app is in this file
-const Person = require("./models/person"); // Import your Person model
-function wait(ms) {
-  return new Promise((resolve) => setTimeout(resolve, ms));
-}
+const app = require("./index"); 
+
 describe("API CRUD Operations", () => {
   let createdPersonId;
 
