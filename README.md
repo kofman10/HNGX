@@ -8,6 +8,8 @@
 ## Introduction
 This API allows you to manage a list of people, including creating, reading, updating, and deleting person records.
 
+![FINAL UML](https://github.com/kofman10/HNGX/assets/64756234/473cc101-4206-4984-a5a6-56aaaba800a2)
+
 ## Endpoints
 
 ### Create a New Person
