@@ -76,7 +76,9 @@ This API allows you to manage a list of people, including creating, reading, upd
 ## Setup and Deployment
 1. Clone the repository.
 2. Install Node.js and npm if not already installed.
-3. Install project dependencies: npm install.
+3. Install project dependencies: `npm install`.
 4. Configure the database connection in index.js.
-5. Start the API: npm run start.
-6. The API will be available at http://localhost:8080.
+5. Start the API: `npm run start`.
+6. Test the API: `npm test`.
+7. The API will be available at http://localhost:8080.
+![Screenshot (68)](https://github.com/kofman10/HNGX/assets/64756234/bc8e2f3d-adbf-49b2-8212-29f62729cd61)
