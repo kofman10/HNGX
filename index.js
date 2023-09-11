@@ -19,7 +19,9 @@ connect
   .catch((err) => {
     console.log(err);
   });
-  
+
 app.listen(process.env.PORT || 8080, () => {
   console.log("server running");
 });
+
+module.exports = app
