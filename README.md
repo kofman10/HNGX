@@ -62,8 +62,12 @@ This API allows you to manage a list of people, including creating, reading, upd
 - **Response Format:**
   ```json
   {
+  "_id": "64fe49782384b16989ed299f",
   "name": "updated name",
-  "details": "details about updated name"
+  "details": "details about updated name",
+  "createdAt": "2023-09-10T22:55:52.145Z",
+  "updatedAt": "2023-09-10T22:55:52.145Z",
+  "__v": 0
   }
 
 ### Remove a person
@@ -72,13 +76,18 @@ This API allows you to manage a list of people, including creating, reading, upd
 - **Response Format:**
   ```json
   {
-  "message": "Person deleted successfully"
+    "_id": "64fe49782384b16989ed299f",
+  "name": "deleted name",
+  "details": "details about deleted name",
+  "createdAt": "2023-09-10T22:55:52.145Z",
+  "updatedAt": "2023-09-10T22:55:52.145Z",
+  "__v": 0
   }
 
 ## Sample API Usage
 1. Open Postman.
 2. Click on import.
-3. Copy all content in postman_collection.json and paste in the raw text option to import.
+3. Copy all content in postman_collection.json and paste into the raw text option to import.
 
 ## Setup and Deployment
 1. Clone the repository.
