@@ -75,8 +75,7 @@ This API allows you to manage a list of people, including creating, reading, upd
   "message": "Person deleted successfully"
   }
 
-
-##Sample API Usage
+## Sample API Usage
 1. Open Postman.
 2. Click on import.
 3. Copy all content in postman_collection.json and paste in the raw text option to import.
