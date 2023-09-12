@@ -1,0 +1,65 @@
+{
+	"info": {
+		"_postman_id": "eac202f4-db96-4d64-b715-8f8cd15a0c0d",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "19071817",
+		"_collection_link": "https://www.postman.com/speeding-star-500292/workspace/hng-person-api/collection/19071817-eac202f4-db96-4d64-b715-8f8cd15a0c0d?action=share&source=collection_link&creator=19071817"
+	},
+	"item": [
+		{
+			"name": "https://hngtask2-t4rh.onrender.com/api",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\" : \"Mark Essien\",\r\n    \"details\": \"HNG CEO\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://hngtask2-t4rh.onrender.com/api"
+			},
+			"response": []
+		},
+		{
+			"name": "https://hngtask2-t4rh.onrender.com/api/{user_id}",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://hngtask2-t4rh.onrender.com/api/{user_id}"
+			},
+			"response": []
+		},
+		{
+			"name": "https://hngtask2-t4rh.onrender.com/api/{user_id}",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\" : \"Samuel Kajotoni\",\r\n    \"details\": \"HNG CEO\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://hngtask2-t4rh.onrender.com/api/{user_id}"
+			},
+			"response": []
+		},
+		{
+			"name": "https://hngtask2-t4rh.onrender.com/api/{user_id}",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "https://hngtask2-t4rh.onrender.com/api/{user_id}"
+			},
+			"response": []
+		}
+	]
+}
