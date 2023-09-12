@@ -4,6 +4,7 @@
 1. [Introduction](#introduction)
 2. [Endpoints](#endpoints)
 3. [Setup and Deployment](#setup-and-deployment)
+4. [Assumptions and Limitations](#assumptions-and-limitations)
 
 ## Introduction
 This API allows you to manage a list of people, including creating, reading, updating, and deleting person records.
@@ -82,3 +83,12 @@ This API allows you to manage a list of people, including creating, reading, upd
 6. Test the API: `npm test`.
 7. The API will be available at http://localhost:8080.
 ![Screenshot (68)](https://github.com/kofman10/HNGX/assets/64756234/bc8e2f3d-adbf-49b2-8212-29f62729cd61)
+
+## Assumptions and Limitations
+1. Users have a stable internet connection for making API requests.
+2. Clients are responsible for handling and retrying failed requests, where applicable.
+3. Users will provide valid and secure authentication credentials when accessing protected resources.
+4. Data provided by the API is consistent and accurate at the time of the request but may change over time.
+5. Users will adhere to any legal or regulatory requirements when using the API.
+6. All third-party services are available and reliable.
+
