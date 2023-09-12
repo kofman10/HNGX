@@ -41,6 +41,6 @@ describe("API CRUD Operations", () => {
     const res = await request(app)
       .delete(`/api/${createdPersonId}`)
       .expect(201);
-    assert.equal(res.body.message, "Person deleted successfully");
+    assert.equal(res.body._id, createdPersonId);
   });
 });
