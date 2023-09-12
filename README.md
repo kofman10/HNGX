@@ -3,8 +3,9 @@
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Endpoints](#endpoints)
-3. [Setup and Deployment](#setup-and-deployment)
-4. [Assumptions and Limitations](#assumptions-and-limitations)
+3. [Sample API Usage](#sample-api-usage)
+4. [Setup and Deployment](#setup-and-deployment)
+5. [Assumptions and Limitations](#assumptions-and-limitations)
 
 ## Introduction
 This API allows you to manage a list of people, including creating, reading, updating, and deleting person records.
@@ -73,6 +74,12 @@ This API allows you to manage a list of people, including creating, reading, upd
   {
   "message": "Person deleted successfully"
   }
+
+
+##Sample API Usage
+1. Open Postman.
+2. Click on import.
+3. Copy all content in postman_collection.json and paste in the raw text option to import.
 
 ## Setup and Deployment
 1. Clone the repository.
